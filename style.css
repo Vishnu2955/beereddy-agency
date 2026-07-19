@@ -396,25 +396,31 @@ header{
 
 .menu-toggle{
     display:none;
-    font-size:30px;
-    cursor:pointer;
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
 
 .menu-toggle{
     display:block;
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size:34px;
+    cursor:pointer;
+    color:#003b95;
+    z-index:999;
 }
 
 nav{
     display:none;
     position:absolute;
-    top:100%;
-    left:0;
-    width:100%;
+    top:70px;
+    right:10px;
+    width:220px;
     background:#fff;
-    flex-direction:column;
+    border-radius:10px;
     box-shadow:0 5px 15px rgba(0,0,0,.2);
+    flex-direction:column;
 }
 
 nav.show{
@@ -423,7 +429,7 @@ nav.show{
 
 nav a{
     padding:15px;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #eee;
     text-align:center;
 }
 }
