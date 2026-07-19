@@ -433,3 +433,29 @@ nav a{
     text-align:center;
 }
 }
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+@media (max-width:768px){
+
+.logo{
+    width:100%;
+}
+
+.menu-toggle{
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size:35px;
+    display:block;
+    z-index:9999;
+}
+
+nav{
+    top:65px;
+    right:10px;
+}
+
+}
