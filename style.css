@@ -479,3 +479,12 @@ nav{
 }
 
 }
+/* Mobile only */
+@media (max-width: 768px) {
+    .hero h1,
+    .hero-content h1,
+    .hero-text h1 {
+        color: #fff !important;
+        text-shadow: none;
+    }
+}
