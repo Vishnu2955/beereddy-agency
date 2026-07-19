@@ -403,11 +403,11 @@ header{
 .menu-toggle{
     display:block;
     position:absolute;
-    top:20px;
-    right:20px;
-    font-size:34px;
+    top:15px;
+    right:15px;
+    font-size:35px;
     cursor:pointer;
-    color:#003b95;
+    color:#000;
     z-index:999;
 }
 
