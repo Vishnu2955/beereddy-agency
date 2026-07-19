@@ -118,3 +118,9 @@ link.classList.add("active");
 // ===== CONSOLE MESSAGE =====
 
 console.log("BEEREDDY AGENCY Website Loaded Successfully");
+const menuToggle = document.getElementById("menu-toggle");
+const navbar = document.getElementById("navbar");
+
+menuToggle.addEventListener("click", function () {
+    navbar.classList.toggle("show");
+});
