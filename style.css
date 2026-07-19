@@ -457,26 +457,26 @@ nav a{
     display:flex;
     align-items:center;
 }
-
 @media (max-width:768px){
 
-.logo{
-    width:100%;
-}
+    .menu-toggle{
+        position:absolute;
+        top:20px;
+        right:20px;
+        font-size:35px;
+        display:block;
+        z-index:9999;
+    }
 
-.menu-toggle{
-    position:absolute;
-    top:20px;
-    right:20px;
-    font-size:35px;
-    display:block;
-    z-index:9999;
-}
+    nav{
+        top:65px;
+        right:10px;
+    }
 
-nav{
-    top:65px;
-    right:10px;
-}
+    .hero-content h1{
+        color:#ffffff !important;
+        text-shadow:none !important;
+    }
 
 }
 /* Mobile only */
